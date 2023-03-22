@@ -1,0 +1,13 @@
+###any manifest file start with something called as apiversion  
+apiversion: v1
+kind: Pod
+###we need to create a pod so we need to define the name of pod
+metadata:
+  name: my-first-pod
+spec:
+  ###pod is going to deploy contianers
+  contianers:
+  - name: testprj 
+    image: httpd
+    ports:
+      - containerPort: 80
