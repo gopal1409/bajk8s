@@ -1,5 +1,5 @@
 ###any manifest file start with something called as apiversion  
-apiversion: v1
+apiVersion: v1
 kind: Pod
 ###we need to create a pod so we need to define the name of pod
 metadata:
