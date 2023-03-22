@@ -6,7 +6,7 @@ metadata:
   name: my-first-pod
 spec:
   ###pod is going to deploy contianers
-  contianer:
+  containers:
   - name: testprj 
     image: httpd
     ports:
